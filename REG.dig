@@ -15,7 +15,7 @@
           <string>CLK</string>
         </entry>
       </elementAttributes>
-      <pos x="480" y="120"/>
+      <pos x="440" y="120"/>
     </visualElement>
     <visualElement>
       <elementName>D_FF</elementName>
@@ -868,7 +868,7 @@
       <p2 x="1780" y="440"/>
     </wire>
     <wire>
-      <p1 x="480" y="120"/>
+      <p1 x="440" y="120"/>
       <p2 x="500" y="120"/>
     </wire>
     <wire>
