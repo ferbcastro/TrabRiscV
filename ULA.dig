@@ -11,22 +11,22 @@
     <visualElement>
       <elementName>AND.dig</elementName>
       <elementAttributes/>
-      <pos x="740" y="480"/>
+      <pos x="740" y="680"/>
     </visualElement>
     <visualElement>
       <elementName>SLL.dig</elementName>
       <elementAttributes/>
-      <pos x="740" y="580"/>
+      <pos x="740" y="780"/>
     </visualElement>
     <visualElement>
       <elementName>OR.dig</elementName>
       <elementAttributes/>
-      <pos x="740" y="680"/>
+      <pos x="740" y="580"/>
     </visualElement>
     <visualElement>
       <elementName>XOR.dig</elementName>
       <elementAttributes/>
-      <pos x="740" y="780"/>
+      <pos x="740" y="480"/>
     </visualElement>
     <visualElement>
       <elementName>SLT.dig</elementName>
