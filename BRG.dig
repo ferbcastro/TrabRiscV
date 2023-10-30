@@ -97,7 +97,7 @@
           <string>CLK</string>
         </entry>
       </elementAttributes>
-      <pos x="-20" y="420"/>
+      <pos x="20" y="420"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -779,11 +779,6 @@
         </entry>
       </elementAttributes>
       <pos x="1020" y="-320"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Not</elementName>
-      <elementAttributes/>
-      <pos x="-20" y="420"/>
     </visualElement>
   </visualElements>
   <wires>
