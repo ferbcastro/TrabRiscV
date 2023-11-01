@@ -1,4 +1,5 @@
 .text
+    addi sp,sp, 80
     addi sp, sp, -8
     addi t0, zero, 1 
     addi t1, zero, 1
@@ -6,7 +7,7 @@
     addi t3, zero, 20
     addi t6, zero, 2 # controla laco de repeticao
     sw t0, 0(sp)
-    sw t1, 0(sp)
+    sw t1, 4(sp)
     jal ra, fib
     slli t6, t6, 4
     add sp, sp, t6 # libera stack
