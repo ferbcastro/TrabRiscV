@@ -2545,16 +2545,6 @@
       <pos x="-320" y="1040"/>
     </visualElement>
     <visualElement>
-      <elementName>Not</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="1060"/>
-    </visualElement>
-    <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
@@ -3190,6 +3180,16 @@
         </entry>
       </elementAttributes>
       <pos x="2780" y="200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="-280" y="1060"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -4502,7 +4502,7 @@
       <p2 x="1300" y="540"/>
     </wire>
     <wire>
-      <p1 x="-280" y="1020"/>
+      <p1 x="-280" y="1060"/>
       <p2 x="-280" y="1100"/>
     </wire>
     <wire>
@@ -5190,7 +5190,7 @@
       <p2 x="-200" y="580"/>
     </wire>
     <wire>
-      <p1 x="-200" y="1060"/>
+      <p1 x="-200" y="1020"/>
       <p2 x="-200" y="1100"/>
     </wire>
     <wire>
