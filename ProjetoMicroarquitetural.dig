@@ -8,7 +8,11 @@
       <elementAttributes>
         <entry>
           <string>AddrBits</string>
-          <int>5</int>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>isProgramMemory</string>
+          <boolean>true</boolean>
         </entry>
         <entry>
           <string>Label</string>
@@ -70,10 +74,10 @@
         </entry>
         <entry>
           <string>Data</string>
-          <data>ff810113,0,0,0,100293,0,0,0,100313,0,0,0,513,0,0,0,1400e13,0,0,0
-,200f93,0,0,0,512023,0,0,0,612223,0,0,0,10000ef,0,0,0,4f9f93,0,0,0
-,1f10133,7*0,3cfd063,0,0,0,1f8f93,0,0,0,628533,0,0,0,ffc10113
-,0,0,0,a12023,0,0,0,30293,0,0,0,50313,0,0,0,fe5ff06f,0,0,0,8067</data>
+          <data>1400613,0,0,0,100693,0,0,0,100713,0,0,0,d12023,0,0,0,410113,0,0,0
+,e12023,0,0,0,8000ef,7*0,200f93,0,0,0,e13,0,0,0,2cfd063,0,0,0
+,e68e33,0,0,0,410113,0,0,0,1c12023,0,0,0,70693,0,0,0,e0713,0,0,0
+,1f8f93,0,0,0,fe5ff06f,0,0,0,8067</data>
         </entry>
         <entry>
           <string>intFormat</string>
@@ -239,7 +243,7 @@
         </entry>
         <entry>
           <string>Output Splitting</string>
-          <string>5,27</string>
+          <string>7</string>
         </entry>
       </elementAttributes>
       <pos x="1380" y="180"/>
@@ -484,7 +488,7 @@
           <string>MWRITE</string>
         </entry>
       </elementAttributes>
-      <pos x="1100" y="40"/>
+      <pos x="1060" y="40"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -554,7 +558,7 @@
           <string>SULA</string>
         </entry>
       </elementAttributes>
-      <pos x="1160" y="40"/>
+      <pos x="1140" y="40"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -726,7 +730,7 @@
           <string>PC</string>
         </entry>
       </elementAttributes>
-      <pos x="1040" y="40"/>
+      <pos x="1000" y="40"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -740,7 +744,7 @@
           <string>DADO</string>
         </entry>
       </elementAttributes>
-      <pos x="1020" y="40"/>
+      <pos x="980" y="40"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -754,7 +758,7 @@
           <string>LD</string>
         </entry>
       </elementAttributes>
-      <pos x="1060" y="40"/>
+      <pos x="1020" y="40"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -824,7 +828,7 @@
           <string>IMM</string>
         </entry>
       </elementAttributes>
-      <pos x="1140" y="40"/>
+      <pos x="1100" y="40"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -838,7 +842,7 @@
           <string>TPIMM</string>
         </entry>
       </elementAttributes>
-      <pos x="1120" y="40"/>
+      <pos x="1080" y="40"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -852,7 +856,7 @@
           <string>STR</string>
         </entry>
       </elementAttributes>
-      <pos x="1080" y="40"/>
+      <pos x="1040" y="40"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -866,7 +870,7 @@
           <string>F7</string>
         </entry>
       </elementAttributes>
-      <pos x="1000" y="40"/>
+      <pos x="1160" y="40"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -880,7 +884,7 @@
           <string>F3</string>
         </entry>
       </elementAttributes>
-      <pos x="980" y="40"/>
+      <pos x="1120" y="40"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -909,20 +913,10 @@
         </entry>
         <entry>
           <string>Output Splitting</string>
-          <string>7,25</string>
+          <string>7</string>
         </entry>
       </elementAttributes>
       <pos x="740" y="160"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Probe</elementName>
-      <elementAttributes>
-        <entry>
-          <string>intFormat</string>
-          <intFormat>dec</intFormat>
-        </entry>
-      </elementAttributes>
-      <pos x="720" y="180"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1275,10 +1269,6 @@
     <wire>
       <p1 x="720" y="140"/>
       <p2 x="720" y="160"/>
-    </wire>
-    <wire>
-      <p1 x="720" y="160"/>
-      <p2 x="720" y="180"/>
     </wire>
     <wire>
       <p1 x="1040" y="20"/>
